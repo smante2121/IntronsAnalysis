@@ -1,0 +1,909 @@
+================================
+Context Window & K-mer Experiments
+Started: Mon Nov 17 16:42:44 EST 2025
+================================
+
+================================
+Configuration: kmer=3, context_window=48, epochs=15, run=1
+Time: Mon Nov 17 16:45:06 EST 2025
+Output Dir: outputs/results_kmer3_context48_epoch15_run1
+================================
+Accuracy: 0.5517587590821822
+F1 Score: 0.2515857261424596
+Matthews Correlation: 0.09485544311444002
+Precision: 0.2814875408795414
+Recall: 0.6217613121296821
+Runtime: 101.9454s
+Samples/sec: 3673.507
+Steps/sec: 114.807
+================================
+
+================================
+Configuration: kmer=3, context_window=48, epochs=15, run=2
+Time: Mon Nov 17 16:47:36 EST 2025
+Output Dir: outputs/results_kmer3_context48_epoch15_run2
+================================
+Accuracy: 0.5173125552407629
+F1 Score: 0.24876075393695365
+Matthews Correlation: 0.09262162914574963
+Precision: 0.2845545754273142
+Recall: 0.6357066376909899
+Runtime: 110.1412s
+Samples/sec: 3400.153
+Steps/sec: 106.264
+================================
+
+================================
+Configuration: kmer=3, context_window=64, epochs=15, run=1
+Time: Mon Nov 17 16:50:07 EST 2025
+Output Dir: outputs/results_kmer3_context64_epoch15_run1
+================================
+Accuracy: 0.5058144658034643
+F1 Score: 0.2424554171623073
+Matthews Correlation: 0.08359853579716926
+Precision: 0.2817132984342597
+Recall: 0.6193022894061546
+Runtime: 109.6982s
+Samples/sec: 3413.884
+Steps/sec: 106.693
+================================
+
+================================
+Configuration: kmer=3, context_window=64, epochs=15, run=2
+Time: Mon Nov 17 16:52:34 EST 2025
+Output Dir: outputs/results_kmer3_context64_epoch15_run2
+================================
+Accuracy: 0.5260415971289489
+F1 Score: 0.2431038656359051
+Matthews Correlation: 0.08881185587336078
+Precision: 0.27985952351192217
+Recall: 0.6103603742989763
+Runtime: 110.4061s
+Samples/sec: 3391.996
+Steps/sec: 106.009
+================================
+
+================================
+Configuration: kmer=3, context_window=128, epochs=15, run=1
+Time: Mon Nov 17 16:55:00 EST 2025
+Output Dir: outputs/results_kmer3_context128_epoch15_run1
+================================
+Accuracy: 0.5000360483528573
+F1 Score: 0.2376843285834106
+Matthews Correlation: 0.08875966644589803
+Precision: 0.2802421640065807
+Recall: 0.6119006593438001
+Runtime: 108.8169s
+Samples/sec: 3441.533
+Steps/sec: 107.557
+================================
+
+================================
+Configuration: kmer=3, context_window=128, epochs=15, run=2
+Time: Mon Nov 17 16:57:30 EST 2025
+Output Dir: outputs/results_kmer3_context128_epoch15_run2
+================================
+Accuracy: 0.5189734497205585
+F1 Score: 0.24860443978223995
+Matthews Correlation: 0.09210086812989937
+Precision: 0.28419811984292104
+Recall: 0.6279797816177621
+Runtime: 110.1737s
+Samples/sec: 3399.15
+Steps/sec: 106.232
+================================
+
+================================
+Configuration: kmer=3, context_window=256, epochs=15, run=1
+Time: Mon Nov 17 16:59:56 EST 2025
+Output Dir: outputs/results_kmer3_context256_epoch15_run1
+================================
+Accuracy: 0.539334093464033
+F1 Score: 0.24724437468286117
+Matthews Correlation: 0.09716704174843639
+Precision: 0.28107116143512306
+Recall: 0.6231959547217791
+Runtime: 107.4971s
+Samples/sec: 3483.786
+Steps/sec: 108.877
+================================
+
+================================
+Configuration: kmer=3, context_window=256, epochs=15, run=2
+Time: Mon Nov 17 17:02:22 EST 2025
+Output Dir: outputs/results_kmer3_context256_epoch15_run2
+================================
+Accuracy: 0.5105808591257073
+F1 Score: 0.243068243488448
+Matthews Correlation: 0.09080291494713986
+Precision: 0.2821178337365657
+Recall: 0.6225116303995284
+Runtime: 106.1842s
+Samples/sec: 3526.861
+Steps/sec: 110.224
+================================
+
+================================
+Configuration: kmer=3, context_window=512, epochs=15, run=1
+Time: Mon Nov 17 17:04:54 EST 2025
+Output Dir: outputs/results_kmer3_context512_epoch15_run1
+================================
+Accuracy: 0.5343941339984032
+F1 Score: 0.24446838963601383
+Matthews Correlation: 0.09301843134343224
+Precision: 0.27982363072820116
+Recall: 0.6301836738512694
+Runtime: 111.4189s
+Samples/sec: 3361.162
+Steps/sec: 105.045
+================================
+
+================================
+Configuration: kmer=3, context_window=512, epochs=15, run=2
+Time: Mon Nov 17 17:07:19 EST 2025
+Output Dir: outputs/results_kmer3_context512_epoch15_run2
+================================
+Accuracy: 0.5470804839558128
+F1 Score: 0.2566711401168743
+Matthews Correlation: 0.09482856927303492
+Precision: 0.2852023585799788
+Recall: 0.6366097978448017
+Runtime: 106.3847s
+Samples/sec: 3520.215
+Steps/sec: 110.016
+================================
+
+================================
+Configuration: kmer=3, context_window=1024, epochs=15, run=1
+Time: Mon Nov 17 17:09:46 EST 2025
+Output Dir: outputs/results_kmer3_context1024_epoch15_run1
+================================
+Accuracy: 0.5350857283235914
+F1 Score: 0.24762702424022562
+Matthews Correlation: 0.08934340009182555
+Precision: 0.28103597591271384
+Recall: 0.6445028058525
+Runtime: 108.8476s
+Samples/sec: 3440.564
+Steps/sec: 107.527
+================================
+
+================================
+Configuration: kmer=3, context_window=1024, epochs=15, run=2
+Time: Mon Nov 17 17:12:13 EST 2025
+Output Dir: outputs/results_kmer3_context1024_epoch15_run2
+================================
+Accuracy: 0.5317105343968043
+F1 Score: 0.24713356288492438
+Matthews Correlation: 0.09525792512295182
+Precision: 0.2817221723954436
+Recall: 0.6286457211602992
+Runtime: 108.8604s
+Samples/sec: 3440.157
+Steps/sec: 107.514
+================================
+
+================================
+Configuration: kmer=6, context_window=48, epochs=15, run=1
+Time: Mon Nov 17 17:14:37 EST 2025
+Output Dir: outputs/results_kmer6_context48_epoch15_run1
+================================
+Accuracy: 0.5378440948792648
+F1 Score: 0.24921805757632898
+Matthews Correlation: 0.09343079203238844
+Precision: 0.28203357267093615
+Recall: 0.6205102589267792
+Runtime: 107.7825s
+Samples/sec: 3474.561
+Steps/sec: 108.589
+================================
+
+================================
+Configuration: kmer=6, context_window=48, epochs=15, run=2
+Time: Mon Nov 17 17:17:06 EST 2025
+Output Dir: outputs/results_kmer6_context48_epoch15_run2
+================================
+Accuracy: 0.5173098849924032
+F1 Score: 0.23984671301416619
+Matthews Correlation: 0.09009146210069405
+Precision: 0.2791540102456769
+Recall: 0.62383078915874
+Runtime: 110.5658s
+Samples/sec: 3387.096
+Steps/sec: 105.856
+================================
+
+================================
+Configuration: kmer=6, context_window=64, epochs=15, run=1
+Time: Mon Nov 17 17:19:31 EST 2025
+Output Dir: outputs/results_kmer6_context64_epoch15_run1
+================================
+Accuracy: 0.5388614595043485
+F1 Score: 0.2491811095707283
+Matthews Correlation: 0.09153125130242093
+Precision: 0.2816404976615333
+Recall: 0.617230482100341
+Runtime: 106.6204s
+Samples/sec: 3512.433
+Steps/sec: 109.773
+================================
+
+================================
+Configuration: kmer=6, context_window=64, epochs=15, run=2
+Time: Mon Nov 17 17:21:58 EST 2025
+Output Dir: outputs/results_kmer6_context64_epoch15_run2
+================================
+Accuracy: 0.524172423277089
+F1 Score: 0.24409316618019714
+Matthews Correlation: 0.0952625473547399
+Precision: 0.2810174078426154
+Recall: 0.6124840758856682
+Runtime: 108.9995s
+Samples/sec: 3435.768
+Steps/sec: 107.377
+================================
+
+================================
+Configuration: kmer=6, context_window=128, epochs=15, run=1
+Time: Mon Nov 17 17:24:22 EST 2025
+Output Dir: outputs/results_kmer6_context128_epoch15_run1
+================================
+Accuracy: 0.5131202653158771
+F1 Score: 0.24143092659196796
+Matthews Correlation: 0.09332128851300071
+Precision: 0.2809254228344909
+Recall: 0.6362420336160757
+Runtime: 106.5563s
+Samples/sec: 3514.545
+Steps/sec: 109.839
+================================
+
+================================
+Configuration: kmer=6, context_window=128, epochs=15, run=2
+Time: Mon Nov 17 17:26:49 EST 2025
+Output Dir: outputs/results_kmer6_context128_epoch15_run2
+================================
+Accuracy: 0.5347145638015792
+F1 Score: 0.2491972075167441
+Matthews Correlation: 0.09178378135715454
+Precision: 0.28224533755507397
+Recall: 0.6313977332390761
+Runtime: 107.9579s
+Samples/sec: 3468.918
+Steps/sec: 108.413
+================================
+
+================================
+Configuration: kmer=6, context_window=256, epochs=15, run=1
+Time: Mon Nov 17 17:29:16 EST 2025
+Output Dir: outputs/results_kmer6_context256_epoch15_run1
+================================
+Accuracy: 0.551721375605145
+F1 Score: 0.2598792705096246
+Matthews Correlation: 0.09102922630746395
+Precision: 0.286231929207689
+Recall: 0.6257332045712602
+Runtime: 110.2694s
+Samples/sec: 3396.202
+Steps/sec: 106.14
+================================
+
+================================
+Configuration: kmer=6, context_window=256, epochs=15, run=2
+Time: Mon Nov 17 17:31:40 EST 2025
+Output Dir: outputs/results_kmer6_context256_epoch15_run2
+================================
+Accuracy: 0.5140762142286854
+F1 Score: 0.24200849870391422
+Matthews Correlation: 0.09406043044956837
+Precision: 0.2811971491875037
+Recall: 0.6221795937835765
+Runtime: 106.6289s
+Samples/sec: 3512.153
+Steps/sec: 109.764
+================================
+
+================================
+Configuration: kmer=6, context_window=512, epochs=15, run=1
+Time: Mon Nov 17 17:34:08 EST 2025
+Output Dir: outputs/results_kmer6_context512_epoch15_run1
+================================
+Accuracy: 0.5334355148372351
+F1 Score: 0.24988851092538208
+Matthews Correlation: 0.09702514343579788
+Precision: 0.2833334041290945
+Recall: 0.6154546808817623
+Runtime: 108.9468s
+Samples/sec: 3437.431
+Steps/sec: 107.429
+================================
+
+================================
+Configuration: kmer=6, context_window=512, epochs=15, run=2
+Time: Mon Nov 17 17:36:33 EST 2025
+Output Dir: outputs/results_kmer6_context512_epoch15_run2
+================================
+Accuracy: 0.5234327644814244
+F1 Score: 0.24584104426272654
+Matthews Correlation: 0.08722113843673218
+Precision: 0.281626873507312
+Recall: 0.6070851170850813
+Runtime: 106.2217s
+Samples/sec: 3525.616
+Steps/sec: 110.185
+================================
+
+================================
+Configuration: kmer=6, context_window=1024, epochs=15, run=1
+Time: Mon Nov 17 17:39:03 EST 2025
+Output Dir: outputs/results_kmer6_context1024_epoch15_run1
+================================
+Accuracy: 0.5060921716328836
+F1 Score: 0.24027202734339734
+Matthews Correlation: 0.09247357304965927
+Precision: 0.28120913638953277
+Recall: 0.6150095161533603
+Runtime: 106.6555s
+Samples/sec: 3511.278
+Steps/sec: 109.737
+================================
+
+================================
+Configuration: kmer=6, context_window=1024, epochs=15, run=2
+Time: Mon Nov 17 17:41:29 EST 2025
+Output Dir: outputs/results_kmer6_context1024_epoch15_run2
+================================
+Accuracy: 0.5317372368804022
+F1 Score: 0.24863264361155393
+Matthews Correlation: 0.09356042997393592
+Precision: 0.28256462530712795
+Recall: 0.6155419253017506
+Runtime: 107.876s
+Samples/sec: 3471.551
+Steps/sec: 108.495
+================================
+
+================================
+Configuration: kmer=12, context_window=48, epochs=15, run=1
+Time: Mon Nov 17 17:43:56 EST 2025
+Output Dir: outputs/results_kmer12_context48_epoch15_run1
+================================
+Accuracy: 0.5279428139611265
+F1 Score: 0.24743045343293255
+Matthews Correlation: 0.0930539852937293
+Precision: 0.28229633738179555
+Recall: 0.6164579439525921
+Runtime: 108.6521s
+Samples/sec: 3446.753
+Steps/sec: 107.72
+================================
+
+================================
+Configuration: kmer=12, context_window=48, epochs=15, run=2
+Time: Mon Nov 17 17:46:26 EST 2025
+Output Dir: outputs/results_kmer12_context48_epoch15_run2
+================================
+Accuracy: 0.524920092817833
+F1 Score: 0.2455045030242201
+Matthews Correlation: 0.09083202108272233
+Precision: 0.28155224247335536
+Recall: 0.6097503479709274
+Runtime: 110.3341s
+Samples/sec: 3394.209
+Steps/sec: 106.078
+================================
+
+================================
+Configuration: kmer=12, context_window=64, epochs=15, run=1
+Time: Mon Nov 17 17:48:53 EST 2025
+Output Dir: outputs/results_kmer12_context64_epoch15_run1
+================================
+Accuracy: 0.5170695626400211
+F1 Score: 0.24655345540813506
+Matthews Correlation: 0.09169378800172645
+Precision: 0.2832162386375013
+Recall: 0.6330017929808288
+Runtime: 108.976s
+Samples/sec: 3436.508
+Steps/sec: 107.4
+================================
+
+================================
+Configuration: kmer=12, context_window=64, epochs=15, run=2
+Time: Mon Nov 17 17:51:18 EST 2025
+Output Dir: outputs/results_kmer12_context64_epoch15_run2
+================================
+Accuracy: 0.5209254012715723
+F1 Score: 0.24590402511032677
+Matthews Correlation: 0.08559790145924154
+Precision: 0.28171862044538193
+Recall: 0.62079569910988
+Runtime: 109.2298s
+Samples/sec: 3428.523
+Steps/sec: 107.15
+================================
+
+================================
+Configuration: kmer=12, context_window=128, epochs=15, run=1
+Time: Mon Nov 17 17:53:46 EST 2025
+Output Dir: outputs/results_kmer12_context128_epoch15_run1
+================================
+Accuracy: 0.5127971652643413
+F1 Score: 0.23993681936618147
+Matthews Correlation: 0.08879332329803982
+Precision: 0.2796930449486053
+Recall: 0.6153346946018527
+Runtime: 107.159s
+Samples/sec: 3494.779
+Steps/sec: 109.221
+================================
+
+================================
+Configuration: kmer=12, context_window=128, epochs=15, run=2
+Time: Mon Nov 17 17:56:12 EST 2025
+Output Dir: outputs/results_kmer12_context128_epoch15_run2
+================================
+Accuracy: 0.532794655230883
+F1 Score: 0.2502078025367936
+Matthews Correlation: 0.090164403600536
+Precision: 0.28312252083452993
+Recall: 0.6180568504237891
+Runtime: 106.4241s
+Samples/sec: 3518.912
+Steps/sec: 109.975
+================================
+
+================================
+Configuration: kmer=12, context_window=256, epochs=15, run=1
+Time: Mon Nov 17 17:58:40 EST 2025
+Output Dir: outputs/results_kmer12_context256_epoch15_run1
+================================
+Accuracy: 0.5399402398417077
+F1 Score: 0.25173763568604113
+Matthews Correlation: 0.09272351239026015
+Precision: 0.2830828831359188
+Recall: 0.6328694415708885
+Runtime: 108.2888s
+Samples/sec: 3458.318
+Steps/sec: 108.081
+================================
+
+================================
+Configuration: kmer=12, context_window=256, epochs=15, run=2
+Time: Mon Nov 17 18:01:04 EST 2025
+Output Dir: outputs/results_kmer12_context256_epoch15_run2
+================================
+Accuracy: 0.5027677124249327
+F1 Score: 0.240175101416106
+Matthews Correlation: 0.08745850367418168
+Precision: 0.2811900522198408
+Recall: 0.6342753811036533
+Runtime: 106.9204s
+Samples/sec: 3502.579
+Steps/sec: 109.465
+================================
+
+================================
+Configuration: kmer=12, context_window=512, epochs=15, run=1
+Time: Mon Nov 17 18:03:32 EST 2025
+Output Dir: outputs/results_kmer12_context512_epoch15_run1
+================================
+Accuracy: 0.5353607639046508
+F1 Score: 0.24206356228435258
+Matthews Correlation: 0.08884447689064032
+Precision: 0.277873432629944
+Recall: 0.6177065757059299
+Runtime: 110.6285s
+Samples/sec: 3385.177
+Steps/sec: 105.796
+================================
+
+================================
+Configuration: kmer=12, context_window=512, epochs=15, run=2
+Time: Mon Nov 17 18:05:58 EST 2025
+Output Dir: outputs/results_kmer12_context512_epoch15_run2
+================================
+Accuracy: 0.5220041816089315
+F1 Score: 0.24741150385617233
+Matthews Correlation: 0.09890520899757137
+Precision: 0.2835266348599602
+Recall: 0.6394529734890354
+Runtime: 109.6866s
+Samples/sec: 3414.245
+Steps/sec: 106.704
+================================
+
+================================
+Configuration: kmer=12, context_window=1024, epochs=15, run=1
+Time: Mon Nov 17 18:08:23 EST 2025
+Output Dir: outputs/results_kmer12_context1024_epoch15_run1
+================================
+Accuracy: 0.5316678104230474
+F1 Score: 0.24729543325460218
+Matthews Correlation: 0.09291162918000404
+Precision: 0.28158310061275743
+Recall: 0.6332710091247248
+Runtime: 107.3508s
+Samples/sec: 3488.536
+Steps/sec: 109.026
+================================
+
+================================
+Configuration: kmer=12, context_window=1024, epochs=15, run=2
+Time: Mon Nov 17 18:10:53 EST 2025
+Output Dir: outputs/results_kmer12_context1024_epoch15_run2
+================================
+Accuracy: 0.5401538597104917
+F1 Score: 0.2487752032682347
+Matthews Correlation: 0.09465629599567552
+Precision: 0.2814757026764939
+Recall: 0.6312292077772812
+Runtime: 108.8823s
+Samples/sec: 3439.466
+Steps/sec: 107.492
+================================
+
+================================
+Configuration: kmer=24, context_window=48, epochs=15, run=1
+Time: Mon Nov 17 18:13:19 EST 2025
+Output Dir: outputs/results_kmer24_context48_epoch15_run1
+================================
+Accuracy: 0.5219774791253334
+F1 Score: 0.2441421566014281
+Matthews Correlation: 0.08670145869538926
+Precision: 0.28069486950455197
+Recall: 0.6192090227145457
+Runtime: 106.4184s
+Samples/sec: 3519.1
+Steps/sec: 109.981
+================================
+
+================================
+Configuration: kmer=24, context_window=48, epochs=15, run=2
+Time: Mon Nov 17 18:15:49 EST 2025
+Output Dir: outputs/results_kmer24_context48_epoch15_run2
+================================
+Accuracy: 0.5410804358913422
+F1 Score: 0.25995703239908263
+Matthews Correlation: 0.0955362390398681
+Precision: 0.28798078275682454
+Recall: 0.6295413589809269
+Runtime: 108.8561s
+Samples/sec: 3440.295
+Steps/sec: 107.518
+================================
+
+================================
+Configuration: kmer=24, context_window=64, epochs=15, run=1
+Time: Mon Nov 17 18:18:14 EST 2025
+Output Dir: outputs/results_kmer24_context64_epoch15_run1
+================================
+Accuracy: 0.5344048149918423
+F1 Score: 0.2483800517110082
+Matthews Correlation: 0.09420648875722737
+Precision: 0.2819944613482105
+Recall: 0.6309816144819789
+Runtime: 107.3019s
+Samples/sec: 3490.125
+Steps/sec: 109.075
+================================
+
+================================
+Configuration: kmer=24, context_window=64, epochs=15, run=2
+Time: Mon Nov 17 18:20:38 EST 2025
+Output Dir: outputs/results_kmer24_context64_epoch15_run2
+================================
+Accuracy: 0.5122364131087832
+F1 Score: 0.24360516179049455
+Matthews Correlation: 0.08971854373257501
+Precision: 0.28210759214490816
+Recall: 0.6155493262881865
+Runtime: 105.8218s
+Samples/sec: 3538.939
+Steps/sec: 110.601
+================================
+
+================================
+Configuration: kmer=24, context_window=128, epochs=15, run=1
+Time: Mon Nov 17 18:23:08 EST 2025
+Output Dir: outputs/results_kmer24_context128_epoch15_run1
+================================
+Accuracy: 0.5213366195189815
+F1 Score: 0.2502811818753008
+Matthews Correlation: 0.09435623789052931
+Precision: 0.2851242874732163
+Recall: 0.6222694548575342
+Runtime: 110.5737s
+Samples/sec: 3386.853
+Steps/sec: 105.848
+================================
+
+================================
+Configuration: kmer=24, context_window=128, epochs=15, run=2
+Time: Mon Nov 17 18:25:36 EST 2025
+Output Dir: outputs/results_kmer24_context128_epoch15_run2
+================================
+Accuracy: 0.5462900904413119
+F1 Score: 0.25141584780127557
+Matthews Correlation: 0.09635341887233767
+Precision: 0.2822647964852699
+Recall: 0.6186011215006428
+Runtime: 109.0703s
+Samples/sec: 3433.536
+Steps/sec: 107.307
+================================
+
+================================
+Configuration: kmer=24, context_window=256, epochs=15, run=1
+Time: Mon Nov 17 18:28:07 EST 2025
+Output Dir: outputs/results_kmer24_context256_epoch15_run1
+================================
+Accuracy: 0.5079800372232621
+F1 Score: 0.2392033410213411
+Matthews Correlation: 0.08789122533866545
+Precision: 0.2798925598704377
+Recall: 0.6194230144641106
+Runtime: 112.3247s
+Samples/sec: 3334.059
+Steps/sec: 104.198
+================================
+
+================================
+Configuration: kmer=24, context_window=256, epochs=15, run=2
+Time: Mon Nov 17 18:30:33 EST 2025
+Output Dir: outputs/results_kmer24_context256_epoch15_run2
+================================
+Accuracy: 0.516164348446049
+F1 Score: 0.25053255641754585
+Matthews Correlation: 0.09046961935245823
+Precision: 0.2854982685184778
+Recall: 0.6362236916737105
+Runtime: 108.542s
+Samples/sec: 3450.251
+Steps/sec: 107.829
+================================
+
+================================
+Configuration: kmer=24, context_window=512, epochs=15, run=1
+Time: Mon Nov 17 18:32:57 EST 2025
+Output Dir: outputs/results_kmer24_context512_epoch15_run1
+================================
+Accuracy: 0.5379055105915401
+F1 Score: 0.25077545028690645
+Matthews Correlation: 0.09535847885587995
+Precision: 0.28296665602953114
+Recall: 0.6284602490408675
+Runtime: 108.0736s
+Samples/sec: 3465.204
+Steps/sec: 108.297
+================================
+
+================================
+Configuration: kmer=24, context_window=512, epochs=15, run=2
+Time: Mon Nov 17 18:35:25 EST 2025
+Output Dir: outputs/results_kmer24_context512_epoch15_run2
+================================
+Accuracy: 0.5455317399071288
+F1 Score: 0.2547006299752605
+Matthews Correlation: 0.0953383875703742
+Precision: 0.28428061123953025
+Recall: 0.6406898140542383
+Runtime: 109.8072s
+Samples/sec: 3410.495
+Steps/sec: 106.587
+================================
+
+================================
+Configuration: kmer=24, context_window=1024, epochs=15, run=1
+Time: Mon Nov 17 18:37:50 EST 2025
+Output Dir: outputs/results_kmer24_context1024_epoch15_run1
+================================
+Accuracy: 0.534129779410783
+F1 Score: 0.24914540204780802
+Matthews Correlation: 0.09134985246090495
+Precision: 0.28222471087454476
+Recall: 0.6169389933921036
+Runtime: 106.8907s
+Samples/sec: 3503.551
+Steps/sec: 109.495
+================================
+
+================================
+Configuration: kmer=24, context_window=1024, epochs=15, run=2
+Time: Mon Nov 17 18:40:17 EST 2025
+Output Dir: outputs/results_kmer24_context1024_epoch15_run2
+================================
+Accuracy: 0.514428687012179
+F1 Score: 0.2425456316715776
+Matthews Correlation: 0.08897319740901014
+Precision: 0.2809428108238017
+Recall: 0.6147715605625051
+Runtime: 108.382s
+Samples/sec: 3455.344
+Steps/sec: 107.988
+================================
+
+================================
+Configuration: kmer=48, context_window=48, epochs=15, run=1
+Time: Mon Nov 17 18:42:43 EST 2025
+Output Dir: outputs/results_kmer48_context48_epoch15_run1
+================================
+Accuracy: 0.5486479197430153
+F1 Score: 0.25271879445697587
+Matthews Correlation: 0.09568276297209745
+Precision: 0.28267242220334426
+Recall: 0.6207344654421904
+Runtime: 107.9973s
+Samples/sec: 3467.65
+Steps/sec: 108.373
+================================
+
+================================
+Configuration: kmer=48, context_window=48, epochs=15, run=2
+Time: Mon Nov 17 18:45:09 EST 2025
+Output Dir: outputs/results_kmer48_context48_epoch15_run2
+================================
+Accuracy: 0.5151790268012828
+F1 Score: 0.24053397458565468
+Matthews Correlation: 0.09258403507794576
+Precision: 0.28012066101017163
+Recall: 0.626195655174676
+Runtime: 109.2574s
+Samples/sec: 3427.657
+Steps/sec: 107.123
+================================
+
+================================
+Configuration: kmer=48, context_window=64, epochs=15, run=1
+Time: Mon Nov 17 18:47:35 EST 2025
+Output Dir: outputs/results_kmer48_context64_epoch15_run1
+================================
+Accuracy: 0.5317879715992384
+F1 Score: 0.24096463608416216
+Matthews Correlation: 0.09736108296846016
+Precision: 0.2783890612470676
+Recall: 0.6188341877346111
+Runtime: 109.4574s
+Samples/sec: 3421.394
+Steps/sec: 106.927
+================================
+
+================================
+Configuration: kmer=48, context_window=64, epochs=15, run=2
+Time: Mon Nov 17 18:50:00 EST 2025
+Output Dir: outputs/results_kmer48_context64_epoch15_run2
+================================
+Accuracy: 0.5409976581921885
+F1 Score: 0.24508758004213554
+Matthews Correlation: 0.08900725772519974
+Precision: 0.2789525274329671
+Recall: 0.6180237345051365
+Runtime: 106.5058s
+Samples/sec: 3516.212
+Steps/sec: 109.891
+================================
+
+================================
+Configuration: kmer=48, context_window=128, epochs=15, run=1
+Time: Mon Nov 17 18:52:28 EST 2025
+Output Dir: outputs/results_kmer48_context128_epoch15_run1
+================================
+Accuracy: 0.5409095399963151
+F1 Score: 0.2460811949159665
+Matthews Correlation: 0.08920816471460342
+Precision: 0.2792409438568849
+Recall: 0.6347122221474604
+Runtime: 110.5112s
+Samples/sec: 3388.771
+Steps/sec: 105.908
+================================
+
+================================
+Configuration: kmer=48, context_window=128, epochs=15, run=2
+Time: Mon Nov 17 18:54:52 EST 2025
+Output Dir: outputs/results_kmer48_context128_epoch15_run2
+================================
+Accuracy: 0.5466799467018427
+F1 Score: 0.24864294869168121
+Matthews Correlation: 0.09777845160390759
+Precision: 0.28077412875541585
+Recall: 0.6201785601660038
+Runtime: 106.2398s
+Samples/sec: 3525.016
+Steps/sec: 110.166
+================================
+
+================================
+Configuration: kmer=48, context_window=256, epochs=15, run=1
+Time: Mon Nov 17 18:57:19 EST 2025
+Output Dir: outputs/results_kmer48_context256_epoch15_run1
+================================
+Accuracy: 0.5133659281649786
+F1 Score: 0.24101836975708799
+Matthews Correlation: 0.09357319440450816
+Precision: 0.28074626074118314
+Recall: 0.624892572743941
+Runtime: 107.023s
+Samples/sec: 3499.221
+Steps/sec: 109.36
+================================
+
+================================
+Configuration: kmer=48, context_window=256, epochs=15, run=2
+Time: Mon Nov 17 18:59:47 EST 2025
+Output Dir: outputs/results_kmer48_context256_epoch15_run2
+================================
+Accuracy: 0.5281858065618683
+F1 Score: 0.2442043841789683
+Matthews Correlation: 0.08988716260979061
+Precision: 0.28019398029434395
+Recall: 0.6017824163064245
+Runtime: 109.1132s
+Samples/sec: 3432.188
+Steps/sec: 107.265
+================================
+
+================================
+Configuration: kmer=48, context_window=512, epochs=15, run=1
+Time: Mon Nov 17 19:02:13 EST 2025
+Output Dir: outputs/results_kmer48_context512_epoch15_run1
+================================
+Accuracy: 0.5411338408585382
+F1 Score: 0.2464700730898908
+Matthews Correlation: 0.09078661678929874
+Precision: 0.27970563889274686
+Recall: 0.6295064215160353
+Runtime: 108.4718s
+Samples/sec: 3452.482
+Steps/sec: 107.899
+================================
+
+================================
+Configuration: kmer=48, context_window=512, epochs=15, run=2
+Time: Mon Nov 17 19:04:41 EST 2025
+Output Dir: outputs/results_kmer48_context512_epoch15_run2
+================================
+Accuracy: 0.5348988109384054
+F1 Score: 0.2552884085758266
+Matthews Correlation: 0.09279448516422108
+Precision: 0.28584331195731155
+Recall: 0.6279016854028868
+Runtime: 110.3606s
+Samples/sec: 3393.395
+Steps/sec: 106.052
+================================
+
+================================
+Configuration: kmer=48, context_window=1024, epochs=15, run=1
+Time: Mon Nov 17 19:07:06 EST 2025
+Output Dir: outputs/results_kmer48_context1024_epoch15_run1
+================================
+Accuracy: 0.5121830081415872
+F1 Score: 0.24598498573272817
+Matthews Correlation: 0.0954174263258994
+Precision: 0.2837988897492583
+Recall: 0.6387424329600284
+Runtime: 106.6048s
+Samples/sec: 3512.947
+Steps/sec: 109.789
+================================
+
+================================
+Configuration: kmer=48, context_window=1024, epochs=15, run=2
+Time: Mon Nov 17 19:09:31 EST 2025
+Output Dir: outputs/results_kmer48_context1024_epoch15_run2
+================================
+Accuracy: 0.5412780342699675
+F1 Score: 0.25731117366174516
+Matthews Correlation: 0.09898034119836557
+Precision: 0.2867064473830614
+Recall: 0.636597314945593
+Runtime: 107.4345s
+Samples/sec: 3485.818
+Steps/sec: 108.941
+================================
+
+================================
+All experiments completed!
+Finished: Mon Nov 17 19:09:31 EST 2025
+================================
