@@ -195,6 +195,67 @@ def plot_corr_heatmap(df: pd.DataFrame):
     savefig("correlation_heatmap.png")
 
 
+def plot_learning_curve(df: pd.DataFrame):
+    agg = (
+        df.groupby("epochs", as_index=False)["Accuracy"]
+        .agg(["mean", "std", "count"])
+        .reset_index()
+    )
+    agg["sem"] = agg["std"] / (agg["count"] ** 0.5)
+
+    plt.figure(figsize=(12, 8))
+    plt.plot(agg["epochs"], agg["mean"], marker="o", color="#2a6f97", label="Mean accuracy")
+    plt.fill_between(
+        agg["epochs"],
+        agg["mean"] - agg["sem"],
+        agg["mean"] + agg["sem"],
+        alpha=0.2,
+        color="#2a6f97",
+        label="±1 SEM",
+    )
+    plt.xlabel("Epochs")
+    plt.ylabel("Accuracy (mean ± SEM)")
+    plt.grid(True, linestyle="--", alpha=0.4)
+    plt.title("Learning Curve: Accuracy vs Epochs")
+    plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left", borderaxespad=0)
+    savefig("learning_curve_accuracy_epochs.png")
+
+
+def plot_accuracy_by_kmer(df: pd.DataFrame):
+    agg = (
+        df.groupby("kmer")["Accuracy"]
+        .agg(["mean", "std"])
+        .reset_index()
+        .sort_values("kmer")
+    )
+    plt.figure(figsize=(12, 8))
+    sns.barplot(data=agg, x="kmer", y="mean", yerr=agg["std"], color="#4f46e5")
+    plt.xlabel("k-mer size")
+    plt.ylabel("Accuracy (mean ± std)")
+    plt.title("Accuracy vs k-mer size (averaged across all context windows)")
+    plt.grid(True, axis="y", linestyle="--", alpha=0.4)
+    savefig("accuracy_by_kmer.png")
+
+
+def plot_metrics_by_kmer(df: pd.DataFrame):
+    metrics = ["Precision", "Recall", "F1 Score", "Matthews Correlation"]
+    agg = (
+        df.groupby("kmer")[metrics]
+        .mean()
+        .reset_index()
+        .melt(id_vars="kmer", value_name="value", var_name="metric")
+        .sort_values(["metric", "kmer"])
+    )
+    plt.figure(figsize=(13, 8))
+    sns.barplot(data=agg, x="kmer", y="value", hue="metric")
+    plt.xlabel("k-mer size")
+    plt.ylabel("Mean metric value")
+    plt.title("Metric comparison across k-mer sizes")
+    plt.grid(True, axis="y", linestyle="--", alpha=0.4)
+    plt.legend(title="Metric", bbox_to_anchor=(1.02, 1), loc="upper left", borderaxespad=0)
+    savefig("metrics_by_kmer.png")
+
+
 def main():
     df = load_data()
     prep_output()
@@ -206,6 +267,9 @@ def main():
     plot_accuracy_vs_runtime(df)
     plot_precision_recall(df)
     plot_corr_heatmap(df)
+    plot_learning_curve(df)
+    plot_accuracy_by_kmer(df)
+    plot_metrics_by_kmer(df)
 
 
 if __name__ == "__main__":
